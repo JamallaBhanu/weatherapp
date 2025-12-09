@@ -1,3 +1,5 @@
+//author -- Bhanu Teja
+
 package bruh;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -17,7 +19,7 @@ public class api {
     int deg;
 
     final String API_KEY = "fa880a1c402477a50968b6bb6084e1b8";
-    String CITY = "Hyderabad";
+    String CITY = "Banglore";
     String BASE_URL = "https://api.openweathermap.org/data/2.5/weather?q=";
 
     void get(String city){
